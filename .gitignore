@@ -28,3 +28,4 @@ coverage/
 # Ignore node modules in subprojects explicitly
 /backEnd/node_modules/
 /frontEnd/node_modules/
+.env*
