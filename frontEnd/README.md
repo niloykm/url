@@ -1,12 +1,9 @@
-# React + Vite
+# NRL Frontend | Bangladesh Railway Journey Intelligence
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The client application for NRL, built with React 19, TypeScript, Tailwind CSS 4, and Vite 6.
 
-Currently, two official plugins are available:
+### Available Scripts
 
-Quick local setup:
-
-1. Copy `.env.example` to `.env` and set `VITE_API_BASE` to your backend, e.g. `http://localhost:8000`.
-2. Run `npm install` and `npm run dev`.
-
-The app uses `VITE_API_BASE` to locate the backend API (defaults to `http://localhost:8000`).
+- `npm run dev`: Launch local Vite dev server.
+- `npm run build`: Run `tsc --noEmit` and build optimized production distribution into `dist/`.
+- `npm run preview`: Preview the production build locally.
